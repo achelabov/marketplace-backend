@@ -1,3 +1,3 @@
-#marketplace-backend
+# marketplace-backend
 
-![marketplace drawio](https://user-images.githubusercontent.com/30006875/200813278-88db8532-740d-49f5-ab09-ff0b8628b20e.png)
+![marketplace](https://user-images.githubusercontent.com/30006875/200818539-28d3da55-87a7-4a16-bfa2-1d297d28ab8e.png)
