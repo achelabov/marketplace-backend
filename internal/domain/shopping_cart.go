@@ -2,11 +2,10 @@ package domain
 
 import "time"
 
-type OrderDetails struct {
+type ShoppingCart struct {
 	ID         int
-	UserID     int
-	PaymentID  int
-	Total      uint
+	SessionID  int
+	ProductID  int
 	CreatedAt  time.Time
 	ModefiedAt time.Time
 }
