@@ -3,8 +3,8 @@ package domain
 import "time"
 
 type PaymentDetails struct {
-	ID         int
-	OrderID    int
+	ID         string
+	OrderID    string
 	Provider   string
 	Status     string
 	Currency   string

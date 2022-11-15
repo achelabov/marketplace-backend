@@ -3,9 +3,9 @@ package domain
 import "time"
 
 type OrderDetails struct {
-	ID         int
-	UserID     int
-	PaymentID  int
+	ID         string
+	UserID     string
+	PaymentID  string
 	Total      uint
 	CreatedAt  time.Time
 	ModefiedAt time.Time

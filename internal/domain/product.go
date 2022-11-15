@@ -3,7 +3,7 @@ package domain
 import "time"
 
 type Product struct {
-	ID          int
+	ID          string
 	Name        string
 	Description string
 	Category    string

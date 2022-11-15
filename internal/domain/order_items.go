@@ -3,9 +3,9 @@ package domain
 import "time"
 
 type OrderItems struct {
-	ID         int
-	OrderID    int
-	ProductID  int
+	ID         string
+	OrderID    string
+	ProductID  string
 	CreatedAt  time.Time
 	ModefiedAt time.Time
 }

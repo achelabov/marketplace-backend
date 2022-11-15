@@ -3,7 +3,7 @@ package domain
 import "time"
 
 type User struct {
-	ID          int
+	ID          string
 	FirstName   string
 	LastName    string
 	MiddleName  string
@@ -16,8 +16,8 @@ type User struct {
 }
 
 type UserAddress struct {
-	ID           int
-	UserID       int
+	ID           string
+	UserID       string
 	AddressLine1 string
 	AddressLine2 string
 	City         string
@@ -26,8 +26,8 @@ type UserAddress struct {
 }
 
 type UserPayment struct {
-	ID          int
-	UserID      int
+	ID          string
+	UserID      string
 	PaymentType string
 	Provider    string
 }
